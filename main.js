@@ -1,7 +1,7 @@
-function Pom (){
+function pom (){
     document.querySelector('#som_tecla_pom').play();
 }
-document.querySelector('.tecla_pom').onclick = Pom;
+document.querySelector('.tecla_pom').onclick = pom;
 
 function Clap (){
 document.querySelector('#som_tecla_clap').play();
@@ -13,10 +13,10 @@ function Tim (){
 }
 document.querySelector('.tecla_tim').onclick = Tim;
 
-function Puf (){
+function puff (){
     document.querySelector('#som_tecla_puff').play();
 }
-document.querySelector('.tecla_puff').onclick = Puf;
+document.querySelector('.tecla_puff').onclick = puff;
 
 function Splash (){
     document.querySelector('#som_tecla_splash').play();
